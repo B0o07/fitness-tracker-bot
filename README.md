@@ -40,12 +40,3 @@ Bash
 python index.py
 Security Notice
 Never commit your .env file. The .gitignore file included is configured to exclude it.
-
-
-### 2. Atualize no GitHub (Os comandos mágicos)
-Após salvar o arquivo com o conteúdo acima no seu VS Code, execute estes comandos no terminal da pasta do projeto:
-
-```bash
-git add README.md
-git commit -m "Fix README formatting for better readability"
-git push origin main
